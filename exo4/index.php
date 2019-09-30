@@ -10,11 +10,20 @@
     
     <?php 
     
+        $mavarstring= "BONJOUR";
+        $mavarint = 1;
+        $mavarfloat = 14.456;
+        $mavarbool = true;
 
-       echo "bonjour";
-       
-    
-        ?>
+        echo $mavarstring;
+        echo '<br/>';
+        echo $mavarint;
+        echo '<br/>';
+        echo $mavarfloat;
+        echo '<br/>';
+        echo $mavarbool;
+
+    ?>
     
     
     </body>
